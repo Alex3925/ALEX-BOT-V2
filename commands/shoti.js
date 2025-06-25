@@ -12,7 +12,7 @@ module.exports = {
                 responseType: "stream"
             });
             api.sendMessage({
-                body: "Here's your Shoti, No Jkol challenge ah",
+                body: "Here's your Shoti!",
                 attachment: response.data
             }, event.threadID, event.messageID);
         } catch (error) {
